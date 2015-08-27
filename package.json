@@ -1,0 +1,24 @@
+{
+  "name": "Samsara",
+  "version": "0.0.1",
+  "description": "Find all common user identification and permission needs in one place",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/grunt build && ./node_modules/.bin/mocha --timeout=60000 -R spec --recursive spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/verticelabs/samsara.git"
+  },
+  "keywords": [
+    "authentication",
+    "authorization",
+    "api"
+  ],
+  "author": "Marcelo Manzan <manzan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/verticelabs/samsara/issues"
+  },
+  "homepage": "https://github.com/verticelabs/samsara"
+}
