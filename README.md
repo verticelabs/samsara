@@ -20,3 +20,13 @@ Content-Type: application/json; charset=UTF-8
 HTTP/1.0 201 Created
 Location: /session/1b5acd
 ```
+
+Getting the created session
+
+```
+GET /session/1b5acd HTTP/1.0
+Accept: application/json
+Accept-Charset: UTF-8
+
+{"session":{"account":"guest","provider":"ldap","name":"Guest User","email":"guest@email.info"}}
+```
